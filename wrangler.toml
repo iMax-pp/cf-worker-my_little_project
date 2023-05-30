@@ -1,0 +1,6 @@
+name = "my_little_project"
+main = "build/worker/shim.mjs"
+compatibility_date = "2023-05-30"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"
